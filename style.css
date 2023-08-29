@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%; 
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.date input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.7rem;
+  border: .15rem solid black;
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  
+}
+
+.btn input {
+  flex: 1;
+  margin: 0.4rem;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+
+input[type="submit"] {
+  background-color: rgb(1, 114, 1);
+  color: white;
+}
+
+input[type="reset"] {
+  background-color: rgb(197, 199, 197);
+  color: black;
+}
+
+.btn-socialnetwork {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.3rem;
+}
+
+.btn-socialnetwork a {
+  text-decoration: none;
+}
+
+

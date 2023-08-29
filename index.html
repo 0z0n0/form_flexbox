@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Cajas Flexibles</title>
+</head>
+<body>
+    <header>
+        <h1>Ingreses sus datos</h1>
+
+    </header>
+    <main>
+        <form action="gestion.php" method="post">
+            <section>
+                <article class="date">
+                    <label for="name" ></label>
+                    <input type="text" name="name" placeholder="Nombre" required>
+
+                    <label for="lastName" ></label>
+                    <input type="text" name="lastName" placeholder="Apellido" required>
+
+                    <label for="mail" ></label>
+                    <input type="email" name="email" placeholder="Email" required>
+
+                    <label for="DNI" ></label>
+                    <input type="number" name="DNI" placeholder="DNI" required>
+                </article>
+                    
+                <article class="btn">  
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Ingresar">
+                </article>
+                <article class="btn-socialnetwork">
+                    <a href="facebook.com"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/></a>
+                    <a href="linkedin.com"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></a>
+                    <a href="instagram.com"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+                    <a href="https://twitter.com/"><img width="48" height="48" src="https://img.icons8.com/color/48/twitterx.png" alt="twitterx"/></a>
+
+                </article>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
